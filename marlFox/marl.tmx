@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="200" height="100" tilewidth="16" tileheight="16" nextobjectid="57">
+ <tileset firstgid="1" name="marlfox" tilewidth="16" tileheight="16">
+  <image source="generic-platformer-tiles.png" width="384" height="256"/>
+ </tileset>
+ <tileset firstgid="385" name="goomba" tilewidth="16" tileheight="16">
+  <image source="../../../../Downloads/goomba.png" width="32" height="32"/>
+ </tileset>
+ <layer name="clouds" width="200" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2llu2zAQBmClN+i+3KBtut6g+3LR5ordO4GfCtSpLUvDEfl9yP8UI6AocsgxMk0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABj+xr5Fvke+RH5GfkV+X35y7P4iVw7azc+aOl6rP0bkZuRW5HbkTuRu5F7kfuRB/YH066WVq+nS4/vYXz2UeRx5DzyJPI08izyPPIi8tL+YNrV0ur1dOnxvYrPvo68ibyNvIu8j3yIfIx8iny2P5h2tbR6Pa0+Pvp1WUur19Pq44NTVO9voKXq/Q20pH+A/UbpH9wjYT/3yP6oectxj+zP1mpe5f186j2y8rONams1L3M/Z6/XrdWqEWytd87cz9nr9ZBnc8ZsU9Z7y9zPWXvxS+RiOuzZnDHb1ON7q3i2bu0+vHVL1X3vLUfFPduzpeq+90aPRqj72T2tHrofI9T97N6ox16MNjJqbfYZ2eJMvnIe2ayMWpt9RrY4k51ZfRqh/8lgHttb4y7kf5b+Nvd5Rugj13bqWqp4hmeMKXMPVpzjUZw69xXP8IwxZa7ZinM8ilPnvuIZnjGmzDVbcY5HseTc93bvv4o1y7HWunP0uu96fS7+ba07R6/9aYvn+t+e5HiH1rlD7xzH1su19l3r+t2i7+611ixh7npYak7n/p217vqt10qLHsZ3YfvNXQ9LzWm1d1NtPBl8r7Df3PWw1JxWezfVxkNb1gMAAAAAwHb8AYqYZuM=
+  </data>
+ </layer>
+ <layer name="background" width="200" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt3Fdu03AAx/FUzDsw78CUGBdgStBKcAWGBE/cgM07Yog3DsCQGFJ5Lkts3hkSmyPwY1SKkNPEbpo4zucjfdU4tZt/WltW/4rdagEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEB9vEgv06v0Or1Jb4c6IqiPL+lr+pa+px/p51BHBPWxaKLVWpyWpKVpWVo+MexRQT2syLGwMq1Kq9OatNbxAX+sy7GwPm1IG9OmtNnxQY+epecFzx/IPnSwAfvRjryHnWlX2p32pL0NeF91dyldTlfS1Qrb12Ve5VP6/O/xoYm/HU7H2h5DWTfSzXQr3a6wvXkVmuxhepQepycVth/UvMpM2+On/f/xtXQynUqn05l0Np1L59OFIY5rnLxL79OH9LHC9uZVFt6ddDfdS/eHPJamuVZhm4sl1i07r9Lp/+giTTlnOA80z8wc32vfV8vOq7T/Hz1unAfGw1zHTr8UnS+m04MBvDYAAMCg1eWzAYN0fdgDYGSM42cDpoc9AEaGay6gM58NgM5ccwGdueYCAChj1Ob253udI+Oryr4zanP7873OkfFVZd8Ztbn9Ttc5nuiyXVPuz0B1Va6Rrfvc/uz9FGbvrVD1Osff92c4XqP3xeBV3XfM7UNn5vZhYbXfW2oyX6ccY1DoSI6No44PaG1JW9O2tL3Lcpl1i5Z7ef2yY+31uX4vD+I1+v27prx9aX+aTFNdlsusW7Rc9Hf7f52yY+31uX4vD+I15rPcNL8AtjTC9w==
+  </data>
+ </layer>
+ <layer name="walls" width="200" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt21WzHEUchvE5uLtrkECCBJdQRZEEd8INDsE5ucHducFdb/Hg3OLno/F2sf86TVeP9Mzu9Gbm+VW9tanZyW7Pqe5p2Z6iAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIbjNOX03IUAMqmr/5crV/RUFsRdqlyWuxAjVVb/v1a+Ue5U7gre213ZQ9lT2UvZW9lH2VfZT9lfOUA5UDloJqUelzuUTbkLMQNd61EfY5tY/Xf+Uv5WnlaeCd5bqRynHK+sUlYrJygnKicpJytrlFOUUwvuf109qTyVuxBTENaD1HoUmvbYxvoE01c/MNT7X1/eVd6rOedD5aMeytJFWT24QFmnrFc2KBcqFykXK5dUfJ7d28N2F9bzOna+9Qmma/ttyu5/9CPtbM3jWb/dlvWDryqvKa8rbyhvKm8pbyvvVHy2jW3Cdpf69wrbRd/s++06aCdp2t7H/HqSq/38oPw4+XddP/i58oXypfJVg89+X/mgWG53Nh/p674/bXYdfnv327LL4kJRbF5Yfj1/IUtR51LqOGRl5FyrD+7Puo2yrbKdsr2yg7KjspOyc4vjuyi7KruVlP8fZani+n5Tflf+UP6sOM98p3xfLLe7cD7Stl/KxfoRvz9L/ZuMue+5QblRuUm5WblFuVW5Tbm95P+4NmXtw29DByuHKIcqhymHK0coRyorlKNaHD9aOUY5tuuFJvpW2VKUrzWl1rGt2Zjn+g8qDykPK48ojyqPKY8rT5T8H9emrH3E2tAZypnKWcrZyjnKucraFsfP63h9bVm/FFtrHQvrN4ay1tlGm/GCa1PW18Ta0JXKVcrVyjXKtcp1ysYWx6/veH1d2XxkjKzfaLLWOXQp81jXpmxsEWtDdyv3KPcq9yn3Kw8oiy2Ob+5wTdNg85GhaTJX9Od+W/IUc25Mczz9rPKc8nxFXlBeVF6qyMvKKx3Lgv+zMVOTuaI/91vqv6ij9bHyifKp8lnmsoxNONeumivmmvuN3U/Kz8ovyq+ZyzIL87Ie6soR/m4ZzrWr5oq5534YptzrodY+XTnC3y3DuXbVXDH33A/DkrIHZVbnuj7C2qfrK9YEZbTfdYw/V/TnhMz90ERsnafst323tyDcdxLuQQnfd/H3q/jvr46cH+5tCd93fYSNoVxfEe6BKNtvwJwQbcTWeVYUeX/br2NjKNdXlO2BCA19Toj/TGtuHNvP7tZ6bI1nntd2bAzl+op53BOG2amr/13nxvb5sf3pbq3H1njmeW2nbs8mhquu/tvYu+2zXVWfzxgd86Ksn6jbK2djb/8ZkZTvqvp8xujIzV+73+QdT1njTN1b5H8Xe/GGL6VuzBt/7d6/j6c8v5e6t8j/rvD3AQyP1YuqZ5Hca9N21IfwWYOy+3jK845N9xb538XcdvisXsTqhntdO4lrI67dlLUjd07qb7dWz8P5Q93x8FmDsvt4yvOOTfcW0WeMi9WLsG4seq8bJ6l6ds+978Yy6ycpG9e447a/x+q5vdo6UnjchOMpf+1+KXJtKc87Nt1bRJ8xLlYvYnXDvS56qXp2z72/ahJ3v15XxMc1/tjG6rm92jpSeLwIzrd+o66upjzvyN4ixPwLgMI+og==
+  </data>
+ </layer>
+ <layer name="foreground" width="200" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt3GeO00AYBmDvhbgAvV4AduncALZQrgB/QIJ/EUVzB8ohlia4AkWCU/DxA2lYOQQ7jseOn0d6pS/jxJlIMx7bUlxVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsB5SVs9KdQIKSVlt/A9TyuqPpTpRyPZGVe1E9jZK9+RvqeW2ecy91duMMbQ1sHH0L6nFZ/JxlOa0j81+Vk/t+NenmzE3bi05P55GnkWeR1500KcxSVk9q6wD66SrY9DLyKvI68ibpXrUn5TV+bieVf83Xg9+vhTryPC9jbyLvI98KNyXVUtZPdTjvnkyLF8iXyPfIt8L96WplNVDHe9N7de0mTPQjnM0AJqwbgBwUN01+iLWENZdm3kBQD+Gcl07b61wnsSUOYdiiIY0Lq0R9KHJmB/CmDxUugOwwPHIicjJyKnI6ciZyNmG7Yva6rafW+kvY+y6ujZeZj8XI5cilyNXIlcj1yLXG7YvaqvbfqNhX1kvq7431MX+tyM7kd3IXuR25E7kbsP2RW112++17DPTkrK67+uC+5EHkYcF8qiH30d5XRzHH0ee1LT/eT5Dl98FfZh3v2hI906Zlj6PmZ8in3v8PmgrNXjvMnMof0bQj8jPmvdYHxij1ME+fs+tef95Ni+YspTV6/J8gyk6HDkSORo5VvMapux85EJkM7JV83psfgEmkIcc
+  </data>
+ </layer>
+ <objectgroup name="Object">
+  <object id="8" name="EnemySpawn1" x="941" y="1470" width="23" height="19">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object id="23" name="EnemySpawn2" x="1715" y="1149" width="22" height="23">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object id="24" name="EnemySpawn3" x="1115" y="1479" width="24" height="20">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object id="43" x="1459" y="1202"/>
+  <object id="44" x="1751" y="1360"/>
+  <object id="45" x="1948" y="1355"/>
+  <object id="46" x="1624" y="1360"/>
+ </objectgroup>
+ <objectgroup name="Coin">
+  <object id="30" x="650" y="1230"/>
+  <object id="31" x="687" y="1233"/>
+  <object id="32" x="718" y="1232"/>
+  <object id="33" x="742" y="1234"/>
+  <object id="34" x="766" y="1235"/>
+  <object id="35" x="913" y="1209"/>
+  <object id="36" x="954" y="1172"/>
+  <object id="37" x="1042" y="1156"/>
+  <object id="38" x="1113" y="1154"/>
+  <object id="39" x="1374" y="1187"/>
+  <object id="40" x="356" y="1540"/>
+  <object id="41" x="379" y="1539"/>
+  <object id="42" x="404" y="1541"/>
+  <object id="47" x="2384" y="1238"/>
+  <object id="48" x="2148" y="1201"/>
+  <object id="49" x="2075" y="1154"/>
+  <object id="51" x="413" y="1211"/>
+  <object id="52" x="442" y="1212"/>
+  <object id="53" x="389" y="1214"/>
+  <object id="54" x="239" y="1518"/>
+  <object id="55" x="261" y="1515"/>
+  <object id="56" x="289" y="1517"/>
+ </objectgroup>
+ <objectgroup name="Frog">
+  <object id="50" x="200" y="1195"/>
+ </objectgroup>
+</map>

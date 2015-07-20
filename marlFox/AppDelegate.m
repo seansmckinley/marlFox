@@ -47,7 +47,8 @@
 	if(director.runningScene == nil) {
 		// Add the first scene to the stack. The director will draw it immediately into the framebuffer. (Animation is started automatically when the view is displayed.)
 		// and add the scene to the stack. The director will run it when it automatically when the view is displayed.
-		[director runWithScene: [IntroLayer scene]];
+
+        [director runWithScene: [IntroLayer scene]];
 	}
 }
 @end
@@ -89,20 +90,20 @@
 	director_.wantsFullScreenLayout = YES;
 	
 	// Display FSP and SPF
-	[director_ setDisplayStats:YES];
+//[director_ setDisplayStats:YES];
 	
 	// set FPS at 60
 	[director_ setAnimationInterval:1.0/60];
 	
 	// attach the openglView to the director
 	[director_ setView:glView];
-	
+    [glView setMultipleTouchEnabled:YES];
 	// 2D projection
 	[director_ setProjection:kCCDirectorProjection2D];
 	//	[director setProjection:kCCDirectorProjection3D];
 	
 	// Enables High Res mode (Retina Display) on iPhone 4 and maintains low res on all other devices
-	if( ! [director_ enableRetinaDisplay:YES] )
+	if( ! [director_ enableRetinaDisplay:NO] )
 		CCLOG(@"Retina Display Not supported");
 	
 	// Default texture format for PNG/BMP/TIFF/JPEG/GIF images
